@@ -1,6 +1,5 @@
 var cheerio = require("cheerio");
 var axios = require("axios");
-var MY_SLACK_WEBHOOK_URL = 'https://hooks.slack.com/services/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';
 var info = require('./info');
 var Twit = require('twit')
 let page = 1
